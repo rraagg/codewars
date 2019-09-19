@@ -7,7 +7,7 @@ print 'Please enter your name!'
 
 name = gets.chomp
 
-puts "Hello #{name}. We're going to play a guessing game. The rules require you to pick a random number between 1 and 10. If it matches my number then you win. You get three chance to get it right. Let's Play!"
+puts "Hello #{name}. We're going to play a guessing game. The rules require you to pick a random number between 1 and 10. If it matches my number, then you win. You get three chances to get it right. Let's Play!"
 
 random_number = rand(10).to_i + 1
 
